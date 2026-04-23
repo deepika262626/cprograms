@@ -1,0 +1,10 @@
+#include <stdio.h>
+void main()
+{
+    char ch;
+    printf("enter character value \n");
+    scanf("%c",&ch);
+    int res=(ch>='A')||(ch<='Z')||(ch>='a')||(ch<='z');
+    printf("%c is a alphabet i.e is:%d",ch,res);
+}
+
